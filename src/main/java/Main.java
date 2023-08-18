@@ -33,9 +33,11 @@ public class Main {
                         break;
                     case 4:
                         // Lógica para atualizar um estudante
+                        controller.atualizarEstudante();
                         break;
                     case 5:
                         // Lógica para remover um estudante
+                        controller.removerEstudante();
                         break;
                     case 0:
                         System.out.println("Encerrando o programa...");
